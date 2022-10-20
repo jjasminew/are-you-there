@@ -9,6 +9,36 @@ body{
   background: #10121E;
 }
 
+.wrapper {
+  height: 72vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  color: #FFFFFF;
+  width: 14ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 4em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
 .chat blockquote {
   font-family: 'Lato', sans-serif;
   font-size: 120px;
@@ -44,38 +74,37 @@ blockquote:last-child::before {
 
 .startBtn{
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  border-radius: 3.5ex/2em;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  margin-left: 36%;
-  margin-right: 36%;
-  background: #FFFFFF;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: -5%;
+  margin-bottom: 2%;
 }
 
 .aboutBtn{
-  margin-top: 2.5%;
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  border-radius: 3.5ex/2em;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  margin-left: 36%;
-  margin-right: 36%;
-  background: #FFFFFF;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 25px;
 }
 
 .startBtn a{
   text-decoration: none;
-  color: #10121E;
+  color: #FFFFFF;
+}
+
+.startBtn a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .aboutBtn a{
   text-decoration: none;
-  color: #10121E;
+  color: #FFFFFF;
+}
+
+.aboutBtn a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
