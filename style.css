@@ -24,7 +24,7 @@ body{
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 4em;
+  font-size: 5em;
 }
 
 @keyframes typing {
@@ -39,21 +39,101 @@ body{
   }
 }
 
+.startBtn{
+  text-align: center;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 27px;
+  margin-top: -5%;
+  margin-bottom: 2%;
+}
+
+.startBtn a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.startBtn a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.aboutBtn{
+  text-align: center;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.aboutBtn a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.aboutBtn a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .chat blockquote {
-  font-family: 'Lato', sans-serif;
-  font-size: 120px;
-  font-weight: 700;
-  letter-spacing: 0.07em;
+  font-family: monospace;
+  font-size: 60px;
+  font-weight: 400;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 60%;
   display: flex;
   justify-content: center;
-  padding: 3.5% 15%;
+  padding: 2.5% 5%;
   border-radius: 2ex/1em;
   position: relative;
+  margin-top: 4%;
   margin-bottom: 8%;
 }
 
+.chat2 blockquote {
+  font-family: monospace;
+  font-size: 60px;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 52%;
+  display: flex;
+  justify-content: center;
+  padding: 2.5% 5%;
+  border-radius: 2ex/1em;
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: 8%;
+}
+
+.chat3 blockquote {
+  font-family: monospace;
+  font-size: 60px;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 2.5% 5%;
+  border-radius: 2ex/1em;
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: 8%;
+}
+
+.chat4 blockquote {
+  font-family: monospace;
+  font-size: 60px;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 45%;
+  display: flex;
+  justify-content: center;
+  padding: 2.5% 5%;
+  border-radius: 2ex/1em;
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: 8%;
+}
 
 blockquote:last-child::before {
   display: block;
@@ -72,39 +152,79 @@ blockquote:last-child::before {
   content: "";
 }
 
-.startBtn{
+.chat2 .them blockquote { background-color: #FFFFFF; }
+.chat2 .them blockquote:last-child::before {
+  border-bottom-color: #FFFFFF;
+  border-right-color: #FFFFFF;
+  left: -0.3ex;
+  content: "";
+}
+
+.chat3 .them blockquote { background-color: #FFFFFF; }
+.chat3 .them blockquote:last-child::before {
+  border-bottom-color: #FFFFFF;
+  border-right-color: #FFFFFF;
+  left: -0.3ex;
+  content: "";
+}
+
+.chat4 .them blockquote { background-color: #FFFFFF; }
+.chat4 .them blockquote:last-child::before {
+  border-bottom-color: #FFFFFF;
+  border-right-color: #FFFFFF;
+  left: -0.3ex;
+  content: "";
+}
+
+.textOptions{
   text-align: center;
   font-family: monospace;
+  padding-top: 8%;
+}
+
+.textOptions a{
+  text-decoration: none;
+  color: #000000;
   font-weight: 400;
-  font-size: 25px;
-  margin-top: -5%;
+  font-size: 27px;
+}
+
+.firstBtn{
   margin-bottom: 2%;
+  background-color: #FFFFFF;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 1em/2ex;
 }
 
-.aboutBtn{
+.secondBtn{
+  background-color: #FFFFFF;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 1em/2ex;
+}
+
+.endingText{
+  padding-top: 14%;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 100px;
+}
+
+.clickHome{
   text-align: center;
   font-family: monospace;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 28px;
 }
 
-.startBtn a{
+.clickHome a{
   text-decoration: none;
   color: #FFFFFF;
 }
-
-.startBtn a:hover{
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.aboutBtn a{
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-.aboutBtn a:hover{
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
