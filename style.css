@@ -117,22 +117,97 @@ body{
   border-radius: 2ex/1em;
   position: relative;
   margin-top: 4%;
-  margin-bottom: -2%;
+  margin-bottom: -3%;
 }
 
 .chat4 blockquote {
   font-family: monospace;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 45%;
+  display: flex;
+  justify-content: center;
+  padding: 2% 4%;
+  border-radius: 2ex/1em;
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+.chat5 blockquote {
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 45%;
+  display: flex;
+  justify-content: center;
+  padding: 2% 4%;
+  border-radius: 2ex/1em;
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: -3%;
+}
+
+.chat6 blockquote {
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 40%;
   display: flex;
   justify-content: center;
   padding: 2% 5%;
   border-radius: 2ex/1em;
   position: relative;
   margin-top: 4%;
-  margin-bottom: 6%;
+  margin-bottom: -3%;
+}
+
+.chat7 blockquote {
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 67%;
+  display: flex;
+  justify-content: center;
+  padding: 2% 5%;
+  border-radius: 2ex/1em;
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: -3%;
+}
+
+.chat8 blockquote {
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 48%;
+  display: flex;
+  justify-content: center;
+  padding: 2% 4%;
+  border-radius: 2ex/1em;
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: -3%;
+}
+
+.chat9 blockquote {
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 60%;
+  display: flex;
+  justify-content: center;
+  padding: 2% 5%;
+  border-radius: 2ex/1em;
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: -3%;
 }
 
 blockquote:last-child::before {
@@ -176,6 +251,16 @@ blockquote:last-child::before {
   content: "";
 }
 
+.chat5 .them blockquote { background-color: #FFFFFF; }
+
+.chat6 .them blockquote { background-color: #FFFFFF; }
+
+.chat7 .them blockquote { background-color: #FFFFFF; }
+
+.chat8 .them blockquote { background-color: #FFFFFF; }
+
+.chat9 .them blockquote { background-color: #FFFFFF; }
+
 .textOptions{
   text-align: center;
   font-family: monospace;
@@ -183,6 +268,20 @@ blockquote:last-child::before {
 }
 
 .textOptions a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 27px;
+}
+
+/* trying to align button in center */
+.alignOptions{
+  text-align: center;
+  font-family: monospace;
+  padding-top: 8%;
+}
+
+.alignOptions a{
   text-decoration: none;
   color: #000000;
   font-weight: 400;
@@ -200,6 +299,16 @@ blockquote:last-child::before {
 }
 
 .secondBtn{
+  background-color: #FFFFFF;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 1em/2ex;
+  margin-bottom: 2%;
+}
+
+.centerBtn{
   background-color: #FFFFFF;
   padding-top: 3px;
   padding-bottom: 3px;
