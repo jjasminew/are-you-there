@@ -77,7 +77,7 @@ body{
 
 .chat blockquote {
   font-family: monospace;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 60%;
@@ -92,7 +92,7 @@ body{
 
 .chat2 blockquote {
   font-family: monospace;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 52%;
@@ -210,6 +210,21 @@ body{
   margin-bottom: -3%;
 }
 
+.chat10 blockquote {
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 2% 5%;
+  border-radius: 2ex/1em;
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
 blockquote:last-child::before {
   display: block;
   position: absolute;
@@ -261,10 +276,19 @@ blockquote:last-child::before {
 
 .chat9 .them blockquote { background-color: #FFFFFF; }
 
+.chat10 .them blockquote { background-color: #FFFFFF; }
+.chat10 .them blockquote:last-child::before {
+  border-bottom-color: #FFFFFF;
+  border-right-color: #FFFFFF;
+  left: -0.3ex;
+  content: "";
+}
+
 .textOptions{
   text-align: center;
   font-family: monospace;
-  padding-top: 8%;
+  padding-top: 7.5%;
+  padding-bottom: 1%;
 }
 
 .textOptions a{
@@ -274,11 +298,12 @@ blockquote:last-child::before {
   font-size: 27px;
 }
 
-/* trying to align button in center */
 .alignOptions{
   text-align: center;
   font-family: monospace;
-  padding-top: 8%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 .alignOptions a{
@@ -293,8 +318,8 @@ blockquote:last-child::before {
   background-color: #FFFFFF;
   padding-top: 3px;
   padding-bottom: 3px;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 32%;
+  margin-right: 32%;
   border-radius: 1em/2ex;
 }
 
@@ -302,23 +327,24 @@ blockquote:last-child::before {
   background-color: #FFFFFF;
   padding-top: 3px;
   padding-bottom: 3px;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 32%;
+  margin-right: 32%;
   border-radius: 1em/2ex;
-  margin-bottom: 2%;
 }
 
 .centerBtn{
   background-color: #FFFFFF;
   padding-top: 3px;
   padding-bottom: 3px;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 32%;
+  margin-right: 32%;
   border-radius: 1em/2ex;
 }
 
 .endingText{
   padding-top: 14%;
+  padding-left: 2%;
+  padding-right: 2%;
   text-align: center;
   color: #FFFFFF;
   font-family: monospace;
