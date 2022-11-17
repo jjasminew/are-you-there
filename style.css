@@ -77,7 +77,7 @@ body{
 
 .chat blockquote {
   font-family: monospace;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 60%;
@@ -92,7 +92,7 @@ body{
 
 .chat2 blockquote {
   font-family: monospace;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 52%;
@@ -107,7 +107,7 @@ body{
 
 .chat3 blockquote {
   font-family: monospace;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 40%;
@@ -122,7 +122,7 @@ body{
 
 .chat4 blockquote {
   font-family: monospace;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 45%;
@@ -137,7 +137,7 @@ body{
 
 .chat5 blockquote {
   font-family: monospace;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 45%;
@@ -152,7 +152,7 @@ body{
 
 .chat6 blockquote {
   font-family: monospace;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 40%;
@@ -167,7 +167,7 @@ body{
 
 .chat7 blockquote {
   font-family: monospace;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 67%;
@@ -182,7 +182,7 @@ body{
 
 .chat8 blockquote {
   font-family: monospace;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 48%;
@@ -197,7 +197,7 @@ body{
 
 .chat9 blockquote {
   font-family: monospace;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 60%;
@@ -212,7 +212,7 @@ body{
 
 .chat10 blockquote {
   font-family: monospace;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   margin-left: 5%;
   margin-right: 40%;
@@ -295,7 +295,7 @@ blockquote:last-child::before {
   text-decoration: none;
   color: #000000;
   font-weight: 400;
-  font-size: 27px;
+  font-size: 24px;
 }
 
 .alignOptions{
@@ -310,7 +310,7 @@ blockquote:last-child::before {
   text-decoration: none;
   color: #000000;
   font-weight: 400;
-  font-size: 27px;
+  font-size: 24px;
 }
 
 .firstBtn{
@@ -362,4 +362,47 @@ blockquote:last-child::before {
 .clickHome a{
   text-decoration: none;
   color: #FFFFFF;
+}
+
+:root {
+  --msg-content-height: 26.5em;
+  --msg-spacing: 1em;
+  --msg1-height: 5.5em;
+  --msg2-height: 20em;
+}
+
+.msg-receive {
+  position: relative;
+  animation-iteration-count: 1;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+}
+
+
+/*Animation Names*/
+
+#msg1 {
+  animation-name: msg1;
+}
+
+/*Key Frames*/
+
+@keyframes msg1 {
+  0% {
+    top: calc(var(--msg1-height));
+    left: 0;
+    transform: scale(0);
+  }
+  5% {
+    top: calc(var(--msg1-height));
+    left: 0;
+    transform: scale(1);
+  }
+  17% {
+    top: calc(var(--msg-content-height) - var(--msg1-height) - var(--msg-spacing) - var(--msg2-height));
+  }
+  }
+  100% {
+    left: 0;
+  }
 }
