@@ -342,14 +342,25 @@ blockquote:last-child::before {
 }
 
 .endingText{
-  padding-top: 14%;
+  padding-top: 15%;
   padding-left: 2%;
   padding-right: 2%;
   text-align: center;
   color: #FFFFFF;
   font-family: monospace;
   font-weight: 400;
-  font-size: 100px;
+  font-size: 80px;
+}
+
+.captionText{
+  padding-top: 15%;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 50px;
 }
 
 .clickHome{
@@ -400,7 +411,6 @@ blockquote:last-child::before {
   }
   17% {
     top: calc(var(--msg-content-height) - var(--msg1-height) - var(--msg-spacing) - var(--msg2-height));
-  }
   }
   100% {
     left: 0;
