@@ -301,9 +301,9 @@ blockquote:last-child::before {
 .alignOptions{
   text-align: center;
   font-family: monospace;
-  height: 100vh;
   display: grid;
   place-items: center;
+  height: 100vh;
 }
 
 .alignOptions a{
@@ -333,6 +333,16 @@ blockquote:last-child::before {
 }
 
 .centerBtn{
+  margin-bottom: 2%;
+  background-color: #FFFFFF;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 32%;
+  margin-right: 32%;
+  border-radius: 1em/2ex;
+}
+
+.centerBtn2{
   background-color: #FFFFFF;
   padding-top: 3px;
   padding-bottom: 3px;
