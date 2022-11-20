@@ -4,9 +4,9 @@ window.onload=function(){
 
 // List of sentences
 var _CONTENT = [ 
-	"(my head's spinning. how'd it end up like this?)", 
-	"(everything's wrong. this wasn't supposed to happen)", 
-	"(i can't...)", 
+	"(i want to believe you but nothing's a sure thing. i could be fighting for a future that doesn't exist)", 
+	"(no matter how hard i try, it feels like nothing ever gets better)",
+  "(what am i doing...)",
 ];
 
 // Current sentence being processed
@@ -33,7 +33,7 @@ function Type() {
 
 		clearInterval(_INTERVAL_VAL);
 		setTimeout(function() {
-			_INTERVAL_VAL = setInterval(Delete, 10);
+			_INTERVAL_VAL = setInterval(Delete);
 		}, 1000);
 	}
 }
@@ -54,12 +54,12 @@ function Delete() {
 		// Start to display the next sentence after some time
 		setTimeout(function() {
 
-			_INTERVAL_VAL = setInterval(Type, 100);
+			_INTERVAL_VAL = setInterval(Type, 80);
 		}, 200);
 	}
 }
 
 // Start the typing effect on load
-_INTERVAL_VAL = setInterval(Type, 100);
+_INTERVAL_VAL = setInterval(Type, 80);
 
 

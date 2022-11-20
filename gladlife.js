@@ -4,9 +4,8 @@ window.onload=function(){
 
 // List of sentences
 var _CONTENT = [ 
-	"(my head's spinning. how'd it end up like this?)", 
-	"(everything's wrong. this wasn't supposed to happen)", 
-	"(i can't...)", 
+	"(thank you. i'm glad that you're apart of my life. thank you.)", 
+	"(i feel a little better now. i really appreciate you being here.)",
 ];
 
 // Current sentence being processed

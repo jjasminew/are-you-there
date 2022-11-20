@@ -75,6 +75,15 @@ body{
   text-underline-offset: 4px;
 }
 
+.warningText{
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 7%;
+}
+
 .chat blockquote {
   font-family: monospace;
   font-size: 40px;
@@ -313,6 +322,22 @@ blockquote:last-child::before {
   font-size: 24px;
 }
 
+.centerOptions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: monospace;
+}
+
+.centerOptions a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 24px;
+}
+
 .firstBtn{
   margin-bottom: 2%;
   background-color: #FFFFFF;
@@ -333,7 +358,6 @@ blockquote:last-child::before {
 }
 
 .centerBtn{
-  margin-bottom: 2%;
   background-color: #FFFFFF;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -353,8 +377,8 @@ blockquote:last-child::before {
 
 .endingText{
   padding-top: 15%;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align: center;
   color: #FFFFFF;
   font-family: monospace;
@@ -364,13 +388,42 @@ blockquote:last-child::before {
 
 .captionText{
   padding-top: 15%;
-  padding-left: 2%;
-  padding-right: 2%;
-  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
   color: #FFFFFF;
   font-family: monospace;
   font-weight: 400;
   font-size: 50px;
+  text-align: center;
+}
+
+.captionPageText{
+  line-height: 1.5em;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  color: #FFFFFF;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+}
+
+#container {
+	text-align: center;
+}
+
+#text {
+	display: grid;
+  place-items: center;
+  height: 100vh;
+  color: #FFFFFF;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
 }
 
 .clickHome{
