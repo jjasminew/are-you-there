@@ -4,7 +4,8 @@ window.onload=function(){
 
 // List of sentences
 var _CONTENT = [ 
-	"(i tried so hard to keep moving forward. i thought i was getting better, i really did. but now)", 
+	"(i tried so hard to keep moving forward)",
+  "(i thought i was getting better, i really did. but now)", 
 	"(i'm right back to where i was. nothing changed. everything i was scared of came right back)", 
 	"(i just keep wondering, what did i do wrong?)", 
 ];
@@ -54,12 +55,12 @@ function Delete() {
 		// Start to display the next sentence after some time
 		setTimeout(function() {
 
-			_INTERVAL_VAL = setInterval(Type, 70);
+			_INTERVAL_VAL = setInterval(Type, 68);
 		}, 200);
 	}
 }
 
 // Start the typing effect on load
-_INTERVAL_VAL = setInterval(Type, 70);
+_INTERVAL_VAL = setInterval(Type, 68);
 
 

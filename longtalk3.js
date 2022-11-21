@@ -5,7 +5,8 @@ window.onload=function(){
 // List of sentences
 var _CONTENT = [ 
 	"(i don't want anyone to worry. everyone's been so patient with me)", 
-	"(they've all been trying so hard to help me. they all want me to be happy)",
+	"(they've all been trying so hard to help me)",
+  "(they all want me to be happy)",
   "(i'm worried they might get tired of me)", 
 ];
 

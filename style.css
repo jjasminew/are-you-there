@@ -29,13 +29,13 @@ body{
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 }
     
 @keyframes blink {
   50% {
-    border-color: transparent
+    border-color: transparent;
   }
 }
 
@@ -74,6 +74,139 @@ body{
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+
+@media only screen and (min-width: 1001px) {
+  .creatorsText{
+  font-weight: 400;
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.missionText{
+  padding-top: 6%;
+  font-weight: 400;
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.creatorsAlign{
+  padding-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.photos{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nicole{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.jasmine{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.name{
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 27px;
+  font-weight: 400;
+  font-family: monospace;
+  color: #FFFFFF;
+}
+
+.role{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2%;
+  font-size: 27px;
+  font-weight: 400;
+  font-family: monospace;
+  color: #FFFFFF;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  .creatorsText{
+  font-weight: 400;
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.missionText{
+  padding-top: 6%;
+  font-weight: 400;
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.photos{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nicole{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.jasmine{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.name{
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 27px;
+  font-weight: 400;
+  font-family: monospace;
+  color: #FFFFFF;
+}
+
+.role{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2%;
+  font-size: 27px;
+  font-weight: 400;
+  font-family: monospace;
+  color: #FFFFFF;
+  margin-bottom: 10%;
+}
+}
+
+
+.arrow{
+  content: "\2190";
+  font-size: 95px;
+  font-family: monospace;
+  padding-left: 3%;
+}
+
+.arrow a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 
 .warningText{
   font-family: monospace;
@@ -355,6 +488,7 @@ blockquote:last-child::before {
   margin-left: 32%;
   margin-right: 32%;
   border-radius: 1em/2ex;
+  margin-bottom: 80px;
 }
 
 .centerBtn{
@@ -393,7 +527,7 @@ blockquote:last-child::before {
   color: #FFFFFF;
   font-family: monospace;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
 }
 
@@ -436,6 +570,23 @@ blockquote:last-child::before {
 .clickHome a{
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.clickContinue{
+  text-align: center;
+  font-family: monospace;
+  font-weight: 400;
+}
+
+.clickContinue a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+.clickContinue a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 :root {

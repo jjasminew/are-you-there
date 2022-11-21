@@ -4,8 +4,10 @@ window.onload=function(){
 
 // List of sentences
 var _CONTENT = [ 
-	"(thank you. i'm glad that you're apart of my life. thank you.)", 
-	"(i feel a little better now. i really appreciate you being here.)",
+	"(thank you.)",
+  "(i'm glad you're apart of my life. thank you)", 
+	"(i feel a little better now)",
+  "(i really appreciate you being here)",
 ];
 
 // Current sentence being processed
@@ -53,12 +55,12 @@ function Delete() {
 		// Start to display the next sentence after some time
 		setTimeout(function() {
 
-			_INTERVAL_VAL = setInterval(Type, 100);
+			_INTERVAL_VAL = setInterval(Type, 90);
 		}, 200);
 	}
 }
 
 // Start the typing effect on load
-_INTERVAL_VAL = setInterval(Type, 100);
+_INTERVAL_VAL = setInterval(Type, 90);
 
 
