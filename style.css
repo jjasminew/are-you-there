@@ -84,11 +84,34 @@ body{
   color: #FFFFFF;
 }
 
-.missionText{
+.missionTitle{
   padding-top: 6%;
   font-weight: 400;
   font-family: monospace;
   font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.missionText{
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  font-weight: 400;
+  font-family: monospace;
+  font-size: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.missionText2{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  font-weight: 400;
+  font-family: monospace;
+  font-size: 27px;
   text-align: center;
   color: #FFFFFF;
 }
@@ -146,11 +169,34 @@ body{
   color: #FFFFFF;
 }
 
-.missionText{
+.missionTitle{
   padding-top: 6%;
   font-weight: 400;
   font-family: monospace;
   font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.missionText{
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  font-weight: 400;
+  font-family: monospace;
+  font-size: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.missionText2{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  font-weight: 400;
+  font-family: monospace;
+  font-size: 27px;
   text-align: center;
   color: #FFFFFF;
 }

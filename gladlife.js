@@ -5,7 +5,7 @@ window.onload=function(){
 // List of sentences
 var _CONTENT = [ 
 	"(thank you.)",
-  "(i'm glad you're apart of my life. thank you)", 
+  "(i'm glad you're a part of my life. thank you)", 
 	"(i feel a little better now)",
   "(i really appreciate you being here)",
 ];
